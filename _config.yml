@@ -1,8 +1,8 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
-avatar: /avatar.jpeg
+title: 대상혁
+description: 쮼쮼준이형이야
+url: https://ruka030809.github.io
+avatar: /faker.jpeg
 paginate: 5
 permalink: pretty
 cover_image: /bg.jpeg
@@ -33,12 +33,12 @@ twitter:
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Hyungjun
   links:
     - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://github.com/ruka03809
 google_site_verification: xxxxx
-lang: en
+lang: kor
 
 sass:
   sass_dir: _sass
