@@ -30,16 +30,30 @@ layout: default
     <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
   {%- endif -%}
 </div>
+<div style="text-align: center; font-size: 24px; font-family:Nanum Gothic">
+  <div style="font-weight: bold; padding-bottom: 30px;" >About me</div>
+  <div style="text-align: left; font-size: 18px;">
+    <div style="font-weight: 600;">Education</div>
+    <ul style="font-size: 16px;">
+        <li>숭실대학교 소프트웨어학부 since 2022.3~</li>
+        <li>동탄중앙고등학교 2019.03~2022.02</li>
+        <!-- 필요한 만큼 리스트 아이템을 추가하세요 -->
+    </ul>
+    <div style="font-weight: 600;">Awards</div>
+    <ul style="font-size: 16px;">
+        <li>숭실대학교 소프트웨어학부 2022년도 창의적 공학설계 전시회 최우수상</li>
+        <li>제33회 키움증권 대학생 모의투자대회 해외주식리그 수익률 5위</li>
+        <!-- 필요한 만큼 리스트 아이템을 추가하세요 -->
+    </ul>
+  </ul>
+  <div style="font-weight: 600;">Etc</div>
+  <ul style="font-size: 16px;">
+      <li>숭실대학교 소프트웨어학부 7대 학생회 Stream(2022)</li>
+      <li>숭실대학교 소프트웨어학부 8대 학생회 Stand:by 복지국장(2023)</li>
+      <!-- 필요한 만큼 리스트 아이템을 추가하세요 -->
+  </ul>
+</div>
 
+</div>
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
 </div>

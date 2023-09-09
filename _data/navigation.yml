@@ -1,4 +1,6 @@
-- title: Blog
-  url: /
-- title: About
-  url: /about/
+- title: Home
+  url: / 
+- title: Velog
+  url: https://velog.io/@ruka030809 
+- title: BOJ
+  url: https://solved.ac/profile/ruka0809
